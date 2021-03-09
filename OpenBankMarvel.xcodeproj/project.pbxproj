@@ -14,6 +14,9 @@
 		2A05ACD625F791660039CA12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A05ACD425F791660039CA12 /* LaunchScreen.storyboard */; };
 		2A05ACE125F791660039CA12 /* OpenBankMarvelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A05ACE025F791660039CA12 /* OpenBankMarvelTests.swift */; };
 		2A05ACEC25F791660039CA12 /* OpenBankMarvelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A05ACEB25F791660039CA12 /* OpenBankMarvelUITests.swift */; };
+		2A05AD2425F796920039CA12 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A05AD2325F796920039CA12 /* Character.swift */; };
+		2A05AD4B25F7AC340039CA12 /* ModelTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A05AD4A25F7AC340039CA12 /* ModelTypes.swift */; };
+		2A05AD6625F7E2BD0039CA12 /* Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A05AD6525F7E2BD0039CA12 /* Decoding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,10 @@
 		2A05ACE725F791660039CA12 /* OpenBankMarvelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenBankMarvelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A05ACEB25F791660039CA12 /* OpenBankMarvelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBankMarvelUITests.swift; sourceTree = "<group>"; };
 		2A05ACED25F791660039CA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A05AD2325F796920039CA12 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		2A05AD4A25F7AC340039CA12 /* ModelTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTypes.swift; sourceTree = "<group>"; };
+		2A05AD4F25F7B52C0039CA12 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2A05AD6525F7E2BD0039CA12 /* Decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +84,7 @@
 		2A05ACBD25F791640039CA12 = {
 			isa = PBXGroup;
 			children = (
+				2A05AD4F25F7B52C0039CA12 /* README.md */,
 				2A05ACC825F791640039CA12 /* OpenBankMarvel */,
 				2A05ACDF25F791660039CA12 /* OpenBankMarvelTests */,
 				2A05ACEA25F791660039CA12 /* OpenBankMarvelUITests */,
@@ -177,6 +185,9 @@
 		2A05AD1725F792BC0039CA12 /* Model Types */ = {
 			isa = PBXGroup;
 			children = (
+				2A05AD2325F796920039CA12 /* Character.swift */,
+				2A05AD4A25F7AC340039CA12 /* ModelTypes.swift */,
+				2A05AD6525F7E2BD0039CA12 /* Decoding.swift */,
 			);
 			path = "Model Types";
 			sourceTree = "<group>";
@@ -311,8 +322,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A05AD6625F7E2BD0039CA12 /* Decoding.swift in Sources */,
+				2A05AD2425F796920039CA12 /* Character.swift in Sources */,
 				2A05ACCA25F791640039CA12 /* AppDelegate.swift in Sources */,
 				2A05ACCC25F791640039CA12 /* SceneDelegate.swift in Sources */,
+				2A05AD4B25F7AC340039CA12 /* ModelTypes.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,7 +504,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9P4WN5XCMY;
-				INFOPLIST_FILE = OpenBankMarvel/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OpenBankMarvel/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -510,7 +524,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9P4WN5XCMY;
-				INFOPLIST_FILE = OpenBankMarvel/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/OpenBankMarvel/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
