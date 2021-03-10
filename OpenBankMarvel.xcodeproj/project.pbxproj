@@ -12,11 +12,15 @@
 		2A05ACD125F791640039CA12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A05ACCF25F791640039CA12 /* Main.storyboard */; };
 		2A05ACD325F791660039CA12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A05ACD225F791660039CA12 /* Assets.xcassets */; };
 		2A05ACD625F791660039CA12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A05ACD425F791660039CA12 /* LaunchScreen.storyboard */; };
-		2A05ACE125F791660039CA12 /* OpenBankMarvelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A05ACE025F791660039CA12 /* OpenBankMarvelTests.swift */; };
 		2A05ACEC25F791660039CA12 /* OpenBankMarvelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A05ACEB25F791660039CA12 /* OpenBankMarvelUITests.swift */; };
 		2A05AD2425F796920039CA12 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A05AD2325F796920039CA12 /* Character.swift */; };
 		2A05AD4B25F7AC340039CA12 /* ModelTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A05AD4A25F7AC340039CA12 /* ModelTypes.swift */; };
 		2A05AD6625F7E2BD0039CA12 /* Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A05AD6525F7E2BD0039CA12 /* Decoding.swift */; };
+		2A4C9B7025F823C80079B63B /* URLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4C9B6F25F823C80079B63B /* URLTests.swift */; };
+		2A7FA5BC25F93144009F118B /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7FA5BB25F93144009F118B /* Helpers.swift */; };
+		2ABC696B25F8D3D100DFCF75 /* FetchableValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC696A25F8D3D100DFCF75 /* FetchableValueTests.swift */; };
+		2ABC697E25F8DDD600DFCF75 /* Character.json in Resources */ = {isa = PBXBuildFile; fileRef = 2ABC697D25F8DDD600DFCF75 /* Character.json */; };
+		2ABC698925F8E0BD00DFCF75 /* CharacterTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ABC698825F8E0BD00DFCF75 /* CharacterTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +49,6 @@
 		2A05ACD525F791660039CA12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A05ACD725F791660039CA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A05ACDC25F791660039CA12 /* OpenBankMarvelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenBankMarvelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A05ACE025F791660039CA12 /* OpenBankMarvelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBankMarvelTests.swift; sourceTree = "<group>"; };
 		2A05ACE225F791660039CA12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A05ACE725F791660039CA12 /* OpenBankMarvelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OpenBankMarvelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A05ACEB25F791660039CA12 /* OpenBankMarvelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenBankMarvelUITests.swift; sourceTree = "<group>"; };
@@ -54,6 +57,11 @@
 		2A05AD4A25F7AC340039CA12 /* ModelTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTypes.swift; sourceTree = "<group>"; };
 		2A05AD4F25F7B52C0039CA12 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2A05AD6525F7E2BD0039CA12 /* Decoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoding.swift; sourceTree = "<group>"; };
+		2A4C9B6F25F823C80079B63B /* URLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLTests.swift; sourceTree = "<group>"; };
+		2A7FA5BB25F93144009F118B /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		2ABC696A25F8D3D100DFCF75 /* FetchableValueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchableValueTests.swift; sourceTree = "<group>"; };
+		2ABC697D25F8DDD600DFCF75 /* Character.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Character.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		2ABC698825F8E0BD00DFCF75 /* CharacterTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,8 +125,10 @@
 		2A05ACDF25F791660039CA12 /* OpenBankMarvelTests */ = {
 			isa = PBXGroup;
 			children = (
-				2A05ACE025F791660039CA12 /* OpenBankMarvelTests.swift */,
+				2ABC697325F8DBCF00DFCF75 /* JSON */,
+				2ABC696F25F8D93200DFCF75 /* Model Types */,
 				2A05ACE225F791660039CA12 /* Info.plist */,
+				2A7FA5BB25F93144009F118B /* Helpers.swift */,
 			);
 			path = OpenBankMarvelTests;
 			sourceTree = "<group>";
@@ -190,6 +200,24 @@
 				2A05AD6525F7E2BD0039CA12 /* Decoding.swift */,
 			);
 			path = "Model Types";
+			sourceTree = "<group>";
+		};
+		2ABC696F25F8D93200DFCF75 /* Model Types */ = {
+			isa = PBXGroup;
+			children = (
+				2A4C9B6F25F823C80079B63B /* URLTests.swift */,
+				2ABC696A25F8D3D100DFCF75 /* FetchableValueTests.swift */,
+				2ABC698825F8E0BD00DFCF75 /* CharacterTest.swift */,
+			);
+			path = "Model Types";
+			sourceTree = "<group>";
+		};
+		2ABC697325F8DBCF00DFCF75 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				2ABC697D25F8DDD600DFCF75 /* Character.json */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ABC697E25F8DDD600DFCF75 /* Character.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +363,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A05ACE125F791660039CA12 /* OpenBankMarvelTests.swift in Sources */,
+				2ABC696B25F8D3D100DFCF75 /* FetchableValueTests.swift in Sources */,
+				2A4C9B7025F823C80079B63B /* URLTests.swift in Sources */,
+				2ABC698925F8E0BD00DFCF75 /* CharacterTest.swift in Sources */,
+				2A7FA5BC25F93144009F118B /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

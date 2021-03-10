@@ -21,3 +21,11 @@ Se solicita la creación de la estructura de una app que muestre un listado de l
 
 * La conversión de datos está estrechamente relacionada con la estructura interna de un tipo. El tipo en sí es la única entidad que debe conocer su propia representación interna, por lo que la cohesión dicta que este código se incluye en el tipo de modelo en sí.
 
+### Business Logic: evaluando el ROI de las pruebas para esta App.
+
+##### Realizo pruebas con un retorno de la inversión (ROI) bajo, ya que:
+* las pruebas toman tiempo para escribir.
+* las pruebas se rompen y deben mantenerse durante toda la vida útil de una aplicación, lo que requiere una inversión aún mayor en el futuro.
+* A nadie le gusta escribir pruebas y se convierten en una gran barrera psicológica.
+
+*  NOTA: Para otras Apps, inclusive esta, se puede seguir la metodología London School of TDD, aunque muchos conceptos de ésta, lo veremos implementados en esta App.
