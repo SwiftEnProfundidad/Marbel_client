@@ -18,7 +18,7 @@ class FetchableValueTests: XCTestCase {
 
 private extension FetchableValueTests {
     struct TestStruct: Decodable {
-        let testProperty: FetchableValue<Bool>
+        let testProperty: Bool
         
         enum Codingkeys: String, CodingKey {
             case collectionURI
@@ -26,7 +26,7 @@ private extension FetchableValueTests {
         
         init(from decoder: Decoder) throws {
             let container = try decoder.container(keyedBy: Codingkeys.self)
-            testProperty = try container.decode(FetchableValue.self, forKey: .collectionURI)
+            testProperty = try container.decode(Bool.self, forKey: .collectionURI)
         }
     }
 }

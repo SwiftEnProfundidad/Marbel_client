@@ -10,12 +10,12 @@ import Foundation
 @testable import OpenBankMarvel
 
 extension XCTestCase {
-    func verify<T>(url: String, in fetchableValue: FetchableValue<T>, file: StaticString = #file, line: UInt = #line) {
-        XCTAssertEqual(url, fetchableValue.url.absoluteString, file: file, line: line)
-        if case .fetched(_) = fetchableValue.value {
-            XCTFail("A decoded FetchableValue should have an unfetched value", file: file, line: line)
-        }
-    }
+//    func verify<T>(url: String, in fetchableValue: FetchableValue<T>, file: StaticString = #file, line: UInt = #line) {
+//        XCTAssertEqual(url, fetchableValue.url.absoluteString, file: file, line: line)
+//        if case .fetched(_) = fetchableValue.value {
+//            XCTFail("A decoded FetchableValue should have an unfetched value", file: file, line: line)
+//        }
+//    }
     
     func openJsonFile<Model: Decodable>(withName name: String) -> Model? {
         let bundle = Bundle(for: type(of: self))
