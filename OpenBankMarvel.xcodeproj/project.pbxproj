@@ -135,8 +135,8 @@
 			children = (
 				2ABC697325F8DBCF00DFCF75 /* JSON */,
 				2ABC696F25F8D93200DFCF75 /* Model Types */,
-				2A05ACE225F791660039CA12 /* Info.plist */,
 				2A7FA5BB25F93144009F118B /* Helpers.swift */,
+				2A05ACE225F791660039CA12 /* Info.plist */,
 			);
 			path = OpenBankMarvelTests;
 			sourceTree = "<group>";
